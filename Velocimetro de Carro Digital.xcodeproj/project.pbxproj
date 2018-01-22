@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49A578C72016AEDA00855E9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A578C62016AEDA00855E9F /* AppDelegate.swift */; };
+		49A578C92016AEDA00855E9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A578C82016AEDA00855E9F /* ViewController.swift */; };
+		49A578CC2016AEDB00855E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A578CA2016AEDB00855E9F /* Main.storyboard */; };
+		49A578CE2016AEDB00855E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A578CD2016AEDB00855E9F /* Assets.xcassets */; };
+		49A578D12016AEDB00855E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A578CF2016AEDB00855E9F /* LaunchScreen.storyboard */; };
+		49A578DC2016AEDB00855E9F /* Velocimetro_de_Carro_DigitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A578DB2016AEDB00855E9F /* Velocimetro_de_Carro_DigitalTests.swift */; };
+		49A578E72016AEDB00855E9F /* Velocimetro_de_Carro_DigitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A578E62016AEDB00855E9F /* Velocimetro_de_Carro_DigitalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49A578D82016AEDB00855E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A578BB2016AEDA00855E9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A578C22016AEDA00855E9F;
+			remoteInfo = "Velocimetro de Carro Digital";
+		};
+		49A578E32016AEDB00855E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A578BB2016AEDA00855E9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A578C22016AEDA00855E9F;
+			remoteInfo = "Velocimetro de Carro Digital";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49A578C32016AEDA00855E9F /* Velocimetro de Carro Digital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Velocimetro de Carro Digital.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A578C62016AEDA00855E9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49A578C82016AEDA00855E9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49A578CB2016AEDB00855E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A578CD2016AEDB00855E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49A578D02016AEDB00855E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49A578D22016AEDB00855E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A578D72016AEDB00855E9F /* Velocimetro de Carro DigitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Velocimetro de Carro DigitalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A578DB2016AEDB00855E9F /* Velocimetro_de_Carro_DigitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Velocimetro_de_Carro_DigitalTests.swift; sourceTree = "<group>"; };
+		49A578DD2016AEDB00855E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A578E22016AEDB00855E9F /* Velocimetro de Carro DigitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Velocimetro de Carro DigitalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A578E62016AEDB00855E9F /* Velocimetro_de_Carro_DigitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Velocimetro_de_Carro_DigitalUITests.swift; sourceTree = "<group>"; };
+		49A578E82016AEDB00855E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A578C02016AEDA00855E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A578D42016AEDB00855E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A578DF2016AEDB00855E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49A578BA2016AEDA00855E9F = {
+			isa = PBXGroup;
+			children = (
+				49A578C52016AEDA00855E9F /* Velocimetro de Carro Digital */,
+				49A578DA2016AEDB00855E9F /* Velocimetro de Carro DigitalTests */,
+				49A578E52016AEDB00855E9F /* Velocimetro de Carro DigitalUITests */,
+				49A578C42016AEDA00855E9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49A578C42016AEDA00855E9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A578C32016AEDA00855E9F /* Velocimetro de Carro Digital.app */,
+				49A578D72016AEDB00855E9F /* Velocimetro de Carro DigitalTests.xctest */,
+				49A578E22016AEDB00855E9F /* Velocimetro de Carro DigitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A578C52016AEDA00855E9F /* Velocimetro de Carro Digital */ = {
+			isa = PBXGroup;
+			children = (
+				49A578C62016AEDA00855E9F /* AppDelegate.swift */,
+				49A578C82016AEDA00855E9F /* ViewController.swift */,
+				49A578CA2016AEDB00855E9F /* Main.storyboard */,
+				49A578CD2016AEDB00855E9F /* Assets.xcassets */,
+				49A578CF2016AEDB00855E9F /* LaunchScreen.storyboard */,
+				49A578D22016AEDB00855E9F /* Info.plist */,
+			);
+			path = "Velocimetro de Carro Digital";
+			sourceTree = "<group>";
+		};
+		49A578DA2016AEDB00855E9F /* Velocimetro de Carro DigitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				49A578DB2016AEDB00855E9F /* Velocimetro_de_Carro_DigitalTests.swift */,
+				49A578DD2016AEDB00855E9F /* Info.plist */,
+			);
+			path = "Velocimetro de Carro DigitalTests";
+			sourceTree = "<group>";
+		};
+		49A578E52016AEDB00855E9F /* Velocimetro de Carro DigitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49A578E62016AEDB00855E9F /* Velocimetro_de_Carro_DigitalUITests.swift */,
+				49A578E82016AEDB00855E9F /* Info.plist */,
+			);
+			path = "Velocimetro de Carro DigitalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A578C22016AEDA00855E9F /* Velocimetro de Carro Digital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A578EB2016AEDB00855E9F /* Build configuration list for PBXNativeTarget "Velocimetro de Carro Digital" */;
+			buildPhases = (
+				49A578BF2016AEDA00855E9F /* Sources */,
+				49A578C02016AEDA00855E9F /* Frameworks */,
+				49A578C12016AEDA00855E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Velocimetro de Carro Digital";
+			productName = "Velocimetro de Carro Digital";
+			productReference = 49A578C32016AEDA00855E9F /* Velocimetro de Carro Digital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49A578D62016AEDB00855E9F /* Velocimetro de Carro DigitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A578EE2016AEDB00855E9F /* Build configuration list for PBXNativeTarget "Velocimetro de Carro DigitalTests" */;
+			buildPhases = (
+				49A578D32016AEDB00855E9F /* Sources */,
+				49A578D42016AEDB00855E9F /* Frameworks */,
+				49A578D52016AEDB00855E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A578D92016AEDB00855E9F /* PBXTargetDependency */,
+			);
+			name = "Velocimetro de Carro DigitalTests";
+			productName = "Velocimetro de Carro DigitalTests";
+			productReference = 49A578D72016AEDB00855E9F /* Velocimetro de Carro DigitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49A578E12016AEDB00855E9F /* Velocimetro de Carro DigitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A578F12016AEDB00855E9F /* Build configuration list for PBXNativeTarget "Velocimetro de Carro DigitalUITests" */;
+			buildPhases = (
+				49A578DE2016AEDB00855E9F /* Sources */,
+				49A578DF2016AEDB00855E9F /* Frameworks */,
+				49A578E02016AEDB00855E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A578E42016AEDB00855E9F /* PBXTargetDependency */,
+			);
+			name = "Velocimetro de Carro DigitalUITests";
+			productName = "Velocimetro de Carro DigitalUITests";
+			productReference = 49A578E22016AEDB00855E9F /* Velocimetro de Carro DigitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A578BB2016AEDA00855E9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Frederick Munoz";
+				TargetAttributes = {
+					49A578C22016AEDA00855E9F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					49A578D62016AEDB00855E9F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 49A578C22016AEDA00855E9F;
+					};
+					49A578E12016AEDB00855E9F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 49A578C22016AEDA00855E9F;
+					};
+				};
+			};
+			buildConfigurationList = 49A578BE2016AEDA00855E9F /* Build configuration list for PBXProject "Velocimetro de Carro Digital" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49A578BA2016AEDA00855E9F;
+			productRefGroup = 49A578C42016AEDA00855E9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49A578C22016AEDA00855E9F /* Velocimetro de Carro Digital */,
+				49A578D62016AEDB00855E9F /* Velocimetro de Carro DigitalTests */,
+				49A578E12016AEDB00855E9F /* Velocimetro de Carro DigitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49A578C12016AEDA00855E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A578D12016AEDB00855E9F /* LaunchScreen.storyboard in Resources */,
+				49A578CE2016AEDB00855E9F /* Assets.xcassets in Resources */,
+				49A578CC2016AEDB00855E9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A578D52016AEDB00855E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A578E02016AEDB00855E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A578BF2016AEDA00855E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A578C92016AEDA00855E9F /* ViewController.swift in Sources */,
+				49A578C72016AEDA00855E9F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A578D32016AEDB00855E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A578DC2016AEDB00855E9F /* Velocimetro_de_Carro_DigitalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A578DE2016AEDB00855E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A578E72016AEDB00855E9F /* Velocimetro_de_Carro_DigitalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49A578D92016AEDB00855E9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A578C22016AEDA00855E9F /* Velocimetro de Carro Digital */;
+			targetProxy = 49A578D82016AEDB00855E9F /* PBXContainerItemProxy */;
+		};
+		49A578E42016AEDB00855E9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A578C22016AEDA00855E9F /* Velocimetro de Carro Digital */;
+			targetProxy = 49A578E32016AEDB00855E9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49A578CA2016AEDB00855E9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A578CB2016AEDB00855E9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49A578CF2016AEDB00855E9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A578D02016AEDB00855E9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49A578E92016AEDB00855E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49A578EA2016AEDB00855E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A578EC2016AEDB00855E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Velocimetro de Carro Digital/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gt.x.Velocimetro-de-Carro-Digital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49A578ED2016AEDB00855E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Velocimetro de Carro Digital/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gt.x.Velocimetro-de-Carro-Digital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49A578EF2016AEDB00855E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Velocimetro de Carro DigitalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gt.x.Velocimetro-de-Carro-DigitalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Velocimetro de Carro Digital.app/Velocimetro de Carro Digital";
+			};
+			name = Debug;
+		};
+		49A578F02016AEDB00855E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Velocimetro de Carro DigitalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gt.x.Velocimetro-de-Carro-DigitalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Velocimetro de Carro Digital.app/Velocimetro de Carro Digital";
+			};
+			name = Release;
+		};
+		49A578F22016AEDB00855E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Velocimetro de Carro DigitalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gt.x.Velocimetro-de-Carro-DigitalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Velocimetro de Carro Digital";
+			};
+			name = Debug;
+		};
+		49A578F32016AEDB00855E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Velocimetro de Carro DigitalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gt.x.Velocimetro-de-Carro-DigitalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Velocimetro de Carro Digital";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A578BE2016AEDA00855E9F /* Build configuration list for PBXProject "Velocimetro de Carro Digital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A578E92016AEDB00855E9F /* Debug */,
+				49A578EA2016AEDB00855E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A578EB2016AEDB00855E9F /* Build configuration list for PBXNativeTarget "Velocimetro de Carro Digital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A578EC2016AEDB00855E9F /* Debug */,
+				49A578ED2016AEDB00855E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49A578EE2016AEDB00855E9F /* Build configuration list for PBXNativeTarget "Velocimetro de Carro DigitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A578EF2016AEDB00855E9F /* Debug */,
+				49A578F02016AEDB00855E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49A578F12016AEDB00855E9F /* Build configuration list for PBXNativeTarget "Velocimetro de Carro DigitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A578F22016AEDB00855E9F /* Debug */,
+				49A578F32016AEDB00855E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A578BB2016AEDA00855E9F /* Project object */;
+}
