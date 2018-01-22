@@ -14,6 +14,7 @@
 		49A578D12016AEDB00855E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A578CF2016AEDB00855E9F /* LaunchScreen.storyboard */; };
 		49A578DC2016AEDB00855E9F /* Velocimetro_de_Carro_DigitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A578DB2016AEDB00855E9F /* Velocimetro_de_Carro_DigitalTests.swift */; };
 		49A578E72016AEDB00855E9F /* Velocimetro_de_Carro_DigitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A578E62016AEDB00855E9F /* Velocimetro_de_Carro_DigitalUITests.swift */; };
+		49A578F52016AF5900855E9F /* Velocimetro de Auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A578F42016AF5900855E9F /* Velocimetro de Auto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		49A578E22016AEDB00855E9F /* Velocimetro de Carro DigitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Velocimetro de Carro DigitalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A578E62016AEDB00855E9F /* Velocimetro_de_Carro_DigitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Velocimetro_de_Carro_DigitalUITests.swift; sourceTree = "<group>"; };
 		49A578E82016AEDB00855E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A578F42016AF5900855E9F /* Velocimetro de Auto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Velocimetro de Auto.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				49A578C62016AEDA00855E9F /* AppDelegate.swift */,
 				49A578C82016AEDA00855E9F /* ViewController.swift */,
+				49A578F42016AF5900855E9F /* Velocimetro de Auto.swift */,
 				49A578CA2016AEDB00855E9F /* Main.storyboard */,
 				49A578CD2016AEDB00855E9F /* Assets.xcassets */,
 				49A578CF2016AEDB00855E9F /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A578F52016AF5900855E9F /* Velocimetro de Auto.swift in Sources */,
 				49A578C92016AEDA00855E9F /* ViewController.swift in Sources */,
 				49A578C72016AEDA00855E9F /* AppDelegate.swift in Sources */,
 			);
